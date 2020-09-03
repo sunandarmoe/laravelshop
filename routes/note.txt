@@ -1,0 +1,20 @@
+get
+
+post
+
+
+resource -> method (7)
+->index -> get
+->create -> get
+->show -> get
+
+->store
+
+->edit -> get
+
+->update
+->destroy
+
+
+php artisan make:controller ItemController
+ --resource
